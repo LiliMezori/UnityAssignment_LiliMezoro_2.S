@@ -4600,7 +4600,7 @@ MonoBehaviour:
   transformGroundcheck: {fileID: 1797901811}
   layermaskGround:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   isFacingRight: 1
 --- !u!114 &1765177301
 MonoBehaviour:

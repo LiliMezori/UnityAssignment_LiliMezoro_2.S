@@ -885,6 +885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 1616100685462410015, guid: b82836fb7db64734d8cdd02fde41542b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2708476870225245207, guid: b82836fb7db64734d8cdd02fde41542b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 180
@@ -1051,7 +1055,7 @@ Transform:
   m_GameObject: {fileID: 490568049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.74, y: 6.76, z: 0}
+  m_LocalPosition: {x: 3.74, y: 4.76, z: 0}
   m_LocalScale: {x: 4.9549375, y: 0.3072, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1778,7 +1782,7 @@ Transform:
   m_GameObject: {fileID: 754591656}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.74, y: 16.6, z: 0}
+  m_LocalPosition: {x: 3.74, y: 12.6, z: 0}
   m_LocalScale: {x: 4.9549375, y: 0.3072, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4500,7 +4504,7 @@ MonoBehaviour:
   transformGroundcheck: {fileID: 1797901811}
   layermaskGround:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   isFacingRight: 1
 --- !u!114 &1765177301
 MonoBehaviour:
